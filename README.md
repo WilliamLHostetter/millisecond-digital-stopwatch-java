@@ -3,7 +3,7 @@
 Java implementation a digital stopwatch with millisecond resolution and GUI display built using Java Swing.  
 
 <p align="center" width="100%">
-  <img style="display: block; margin: auto;" src="./images/stopwatch_start.png"/>
+  <img style="display: block; margin: auto;" src="./images/stopwatch.gif"/>
 </p>
 
 There are two threads in this application: one for the UI in that will update 
@@ -15,9 +15,6 @@ The GUI has a time display with a format of `HH:MM:ss:SSS`, where `H` is hours,
 and RESET buttons to control the stopwatch. After the START button is clicked, 
 the button will change to a STOP button that can pause the timer. The RESET button clears the timer to 00:00:00:000.
 
-<p align="center" width="100%">
-  <img style="display: block; margin: auto;" src="./images/stopwatch_running.png"/>
-</p>
 <br>
 
 ## Table of Contents
