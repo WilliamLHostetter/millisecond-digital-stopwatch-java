@@ -1,11 +1,10 @@
 # Millisecond Digital Stopwatch
 
+Java implementation a digital stopwatch with millisecond resolution and GUI display built using Java Swing.  
+
 <p align="center" width="100%">
   <img style="display: block; margin: auto;" src="./images/stopwatch_start.png"/>
 </p>
-
-Java implementation a digital stopwatch with millisecond resolution and GUI display 
-built using Java Swing.  
 
 There are two threads in this application: one for the UI in that will update 
 the text in the stopwatch GUI and one for the computation of the time. Having 
@@ -39,8 +38,10 @@ There are no external dependencies needed. Only built-in packages, such as the J
 <a name="usage-heading"></a>
 ## Usage
 
-The entry point whee the program is ran from is `Main.java`. This sets a
-StopwatchPanel object that instantiates the StopwatchTimer in the constructor.
+The entry point where the stopwatch program is ran from is `Main.java`.  
+
+The main routine creates a StopwatchPanel object, where the StopwatchTimer object 
+is instantiated in the StopwatchPanel constructor.
 
 
 
